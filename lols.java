@@ -1,7 +1,6 @@
 public class lols {
-    public static int longestSubstringWithoutRepeat(String s) {
-        // Array representing ASCII characters to track occurences
-        int[] letras = new int[128];
+    public static int longestSubstringWithoutRepeat(String s) {     //ENUNCIADO
+        int[] letras = new int[128];                                // Array representing ASCII characters to track occurences
         int resultado = 0;
         int i = 0;
         int j = 0;
